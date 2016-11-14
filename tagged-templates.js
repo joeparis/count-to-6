@@ -7,6 +7,12 @@ console.log(html`<b>${process.argv[2]} says</b>: "${process.argv[3]}"`);
 
     expressions[0] = argv[2] <-- needs excaping?
     expressions[1] = argv[3] <-- needs escaping
+
+    strings[0]
+    + expressions[0] + string[1]
+    + expressions[1] + string[2]
+    + expressions[2] + string[3]
+    ...
 */
 
 function html(strings, ...expressions) {
